@@ -27,8 +27,6 @@ const flowEcografia = addKeyword(EVENTS.ACTION)
       if (eleccion) {
         // Guarda la elección del profesional en el estado
         await state.update({ profesional: eleccion });
-        // Redirige al flujo de turnos
-        return gotoFlow(flowTurno);
       } else {
         // Manejo de opciones inválidas: vuelve a preguntar al usuario
         await flowDynamic("*Por favor, elija una opción válida (1 o 2).👇*");
