@@ -1,0 +1,418 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492994701881@s.whatsapp.net',
+    fromMe: false,
+    id: 'FA9587BD983AE241803D59A967584C25',
+    participant: undefined
+  },
+  messageTimestamp: 1739646846,
+  pushName: 'Ulises Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '5492994701881'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8746639c-d798-49f2-9a73-6acf4b692e51',
+  keyword: 'key_fcd394ea-f087-4316-b791-164a3170d658',
+  answer: '🙌 Gracias por comunicarse con CMI Candelaria',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7e423faabad7e514a69119e323a07b43'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_970797bb-38a5-4131-b862-06c69cf565cb',
+  keyword: 'ans_8746639c-d798-49f2-9a73-6acf4b692e51',
+  answer: '🏥 El domicilio del CMI es *Tte. Candelaria 50* y los horarios de atención son de *Lunes a Viernes de 8Hs a 20Hs y Sábados de 9Hs a 13Hs*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 1000,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '697947d560ab06fa49303de7465f6a5b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_524cfdd9-6ad1-44fb-8b04-129e1bcab159',
+  keyword: 'ans_970797bb-38a5-4131-b862-06c69cf565cb',
+  answer: '👇 Por favor seleccione la opción deseada, escribiendo el número de la opción.\n' +
+    '*1.-* Solicitar Turno\n' +
+    '*2.-* Otras consultas',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'ff7516e97eb14b1cd46f58a2da5a311c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492994701881@s.whatsapp.net',
+    fromMe: false,
+    id: 'A0B85869CDBCD628C0F6CD23E2A0CD61',
+    participant: undefined
+  },
+  messageTimestamp: 1739646853,
+  pushName: 'Ulises Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2',
+  from: '5492994701881'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492994701881@s.whatsapp.net',
+    fromMe: false,
+    id: '78F295F9ADFC38EF06F9B5B1C1B9A5C4',
+    participant: undefined
+  },
+  messageTimestamp: 1739646861,
+  pushName: 'Ulises Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Ninguna',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Ninguna',
+  from: '5492994701881'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492994701881@s.whatsapp.net',
+    fromMe: false,
+    id: '2CE3D07A1A809D1244A3D55F3FFAE06D',
+    participant: undefined
+  },
+  messageTimestamp: 1739646962,
+  pushName: 'Ulises Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '5492994701881'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8746639c-d798-49f2-9a73-6acf4b692e51',
+  keyword: 'key_fcd394ea-f087-4316-b791-164a3170d658',
+  answer: '🙌 Gracias por comunicarse con CMI Candelaria',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7e423faabad7e514a69119e323a07b43'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_970797bb-38a5-4131-b862-06c69cf565cb',
+  keyword: 'ans_8746639c-d798-49f2-9a73-6acf4b692e51',
+  answer: '🏥 El domicilio del CMI es *Tte. Candelaria 50* y los horarios de atención son de *Lunes a Viernes de 8Hs a 20Hs y Sábados de 9Hs a 13Hs*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 1000,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '697947d560ab06fa49303de7465f6a5b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_524cfdd9-6ad1-44fb-8b04-129e1bcab159',
+  keyword: 'ans_970797bb-38a5-4131-b862-06c69cf565cb',
+  answer: '👇 Por favor seleccione la opción deseada, escribiendo el número de la opción.\n' +
+    '*1.-* Solicitar Turno\n' +
+    '*2.-* Otras consultas',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'ff7516e97eb14b1cd46f58a2da5a311c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492994701881@s.whatsapp.net',
+    fromMe: false,
+    id: 'F6F3A30B83C3C519FD23901694B98280',
+    participant: undefined
+  },
+  messageTimestamp: 1739646969,
+  pushName: 'Ulises Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '1',
+  from: '5492994701881'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492994701881@s.whatsapp.net',
+    fromMe: false,
+    id: '846DB46594622239910454346ECD0EB3',
+    participant: undefined
+  },
+  messageTimestamp: 1739646977,
+  pushName: 'Ulises Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: '15',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '15',
+  from: '5492994701881'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492994701881@s.whatsapp.net',
+    fromMe: false,
+    id: 'C247D9EA3E9EC6097A129FB27E93D622',
+    participant: undefined
+  },
+  messageTimestamp: 1739646992,
+  pushName: 'Ulises Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: '16',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '16',
+  from: '5492994701881'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492994701881@s.whatsapp.net',
+    fromMe: false,
+    id: 'AD8CEDD5AFD6F30A244C9D1975B710A4',
+    participant: undefined
+  },
+  messageTimestamp: 1739647016,
+  pushName: 'Ulises Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Ulises Jaramillo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Ulises Jaramillo',
+  from: '5492994701881'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4302b476-6974-4892-95ed-d3194290072c',
+  keyword: 'ans_f990377e-cb68-46f2-8010-3dcd85ad73d2',
+  answer: 'Dígame su *DNI*, por favor. 🆔',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 1000,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'd44f2ecf5ff9fe2ce57e7de4040ea3d8'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492994701881@s.whatsapp.net',
+    fromMe: false,
+    id: 'A022FA1707E3854FF2FD78B2B27C0B81',
+    participant: undefined
+  },
+  messageTimestamp: 1739647023,
+  pushName: 'Ulises Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: '32368857',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '32368857',
+  from: '5492994701881'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_fd6e7e3f-0e24-44db-b1be-d8d0ee700a09',
+  keyword: 'ans_4302b476-6974-4892-95ed-d3194290072c',
+  answer: 'Dígame su *obra social*, por favor: 💳',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 1000,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '257b77e9c9371bbdf3f34683f9e8de22'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492994701881@s.whatsapp.net',
+    fromMe: false,
+    id: '1261E0A610246824030C359793AAC8A3',
+    participant: undefined
+  },
+  messageTimestamp: 1739647030,
+  pushName: 'Ulises Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Osecac',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Osecac',
+  from: '5492994701881'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_902b323d-0a44-4c12-930c-1da915948d99',
+  keyword: 'ans_fd6e7e3f-0e24-44db-b1be-d8d0ee700a09',
+  answer: 'Dígame su *Preferencia horaria*, por favor: ⏰',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 1000,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '72df9628245c2bfcd6e746fac58f2520'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492994701881@s.whatsapp.net',
+    fromMe: false,
+    id: '46A3F1C02A00652F25968ACED72822C5',
+    participant: undefined
+  },
+  messageTimestamp: 1739647036,
+  pushName: 'Ulises Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Ninguna',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Ninguna',
+  from: '5492994701881'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492994701881@s.whatsapp.net',
+    fromMe: false,
+    id: 'FFE40692C4A518B024CFBB4E609ACAF8',
+    participant: undefined
+  },
+  messageTimestamp: 1739647047,
+  pushName: 'Ulises Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Chau',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Chau',
+  from: '5492994701881'
+}
