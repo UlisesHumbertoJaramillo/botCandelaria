@@ -1,3 +1,3 @@
-node_modules
-eliminados
-services/googleSheets/google.json
+/node_modules
+/eliminados
+/services
