@@ -35,6 +35,10 @@ const {
   flowVerMasEspecialidades,
 } = require("./flows/flowVerMasEspecialidades");
 const { flowOtrasConsultas } = require("./flows/flowOtrasConsultas");
+const { flowPsiquiatria } = require("./flows/flowPsiquiatria");
+const { flowGastroenterologia } = require("./flows/flowGastroenterologia");
+const { flowHematologia } = require("./flows/flowHematologia");
+const { flowNeumonologia } = require("./flows/flowNeumonoogia");
 
 const main = async () => {
   const adapterDB = new MockAdapter();
@@ -68,6 +72,10 @@ const main = async () => {
     flowTratDolor,
     flowOtrasConsultas,
     flowVerMasEspecialidades,
+    flowPsiquiatria,
+    flowGastroenterologia,
+    flowHematologia,
+    flowNeumonologia,
   ]);
   const adapterProvider = createProvider(BaileysProvider);
 
