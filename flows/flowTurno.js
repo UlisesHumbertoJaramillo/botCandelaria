@@ -49,27 +49,29 @@ const flowTurno = addKeyword(EVENTS.ACTION)
       await logger.info(`Usuario ${ctx.from} su Pref. horaria: ${ctx.body}`);
       await state.update({ preferenciaHoraria: ctx.body });
       const myState = await state.getMyState();
-      /*
-    try {
-      // Grabar en el sheet
-      await writeToSheet([
-        [
-          ctx.from,
-          myState.nombreCompleto,
-          myState.dni,
-          myState.ooss,
-          myState.especialidad,
-          myState.profesional,
-          myState.preferenciaHoraria,
-          getCurrentDateTime(),
-          getCurrentDateTimeSheets(),
-        ],
-      ]);
-      logger.info(`Usuario ${ctx.from} Grabó en el Sheet.`);
-    } catch (error) {
-      logger.error(`Usuario ${ctx.from} Error al grabar en el Sheet: ${error}`);
-    }
-*/
+
+      try {
+        // Grabar en el sheet
+        await writeToSheet([
+          [
+            ctx.from,
+            myState.nombreCompleto,
+            myState.dni,
+            myState.ooss,
+            myState.especialidad,
+            myState.profesional,
+            myState.preferenciaHoraria,
+            getCurrentDateTime(),
+            getCurrentDateTimeSheets(),
+          ],
+        ]);
+        logger.info(`Usuario ${ctx.from} Grabó en el Sheet.`);
+      } catch (error) {
+        logger.error(
+          `Usuario ${ctx.from} Error al grabar en el Sheet: ${error}`
+        );
+      }
+
       // Confirmación de que los datos fueron registrados
       await flowDynamic(
         "**SOLICITUD DE TURNO** \n\n" +
