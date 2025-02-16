@@ -5,7 +5,7 @@ const { EVENTS } = require("@bot-whatsapp/bot");
 const flowDermatologia = addKeyword(EVENTS.ACTION).addAnswer(
   [
     "Será atendido por la *Dra. RANGONE Natalia* 👩‍⚕️",
-    "Se comunica que para solicitar un *turno* deberá abonar un *coseguro* que le será informado por las *secretarias* 🗣️.",
+    "Se comunica que para solicitar un *turno* deberá abonar un *coseguro* que le será informado por el área de secretaría 🗣️.",
   ],
   { delay: 1000 },
   async (_, { gotoFlow, state }) => {
