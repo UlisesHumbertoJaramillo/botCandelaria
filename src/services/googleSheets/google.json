@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "botcandelaria",
+  "private_key_id": "72ff67a22fd548b340739899a8105a3ee32f97f7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCW97NtO3yrmyI6\nvtiaUUChqnZaSCzi0lbc+11MTjbyyeY0a7DQpNW8OWGf/gQZ9uGrvWClspSwTu+q\ntmn8dRsQbKshRHROnjaRu4iA088BEEx86fEBSfwFCp9InqFhNvCV2yMQa1IsXYvA\nadt7NmUrGrUnyg/5a3GhPOsn9Mj9XC5+iqNs0HdbAhQVHieQXLHkGazVfwT5DwgS\nYMtqZjqSYHp52C+5HGxZZe7IVJp4qZJhnvJ3cvj6MpSMXJFPhE1N6JNgg7AxAUon\nD8pGBGdtYHrLg5Jjy/Y10qrVfALEQoGovi4oDTRAwo9HHw/7U726kO+sp1kjuvim\nWqOftPspAgMBAAECggEAHwWZZjnSHYVMXFv5MIS/zji0B0tLhfSJCvHQMyzjV7Kr\nTlxOwiENFpeH+xN8jkVQDDVnFcWDjlM6Jo9DajA6Nn7OD5D8gWc7eWja3PYpVGOg\nBA8iigxE8FhFcOu/57UdbP3Rz77t7NXwMMLP6hq8YUYksZ9w9uTgPazB+bzwTDeD\nOUxosr+kStI2C6o0TzClS8R/zxkblW02ohT4Ycr6CiJw+ET5xkV0GWhz7Nau0snd\nV7cs2JaX7vJWk4qWvtxHeUC13+5eGLy5ILxRH9za9WVlixXYb+XK93jY7ZNCfea0\nbHVzxLi5o29Mv9f+xsw84LkrC0Fa0BiqrnfD5CZP3QKBgQDJOIirRalbpiJkTxYE\n+yF0qAtlO6NhPti/vKfEK/wCKKexABa8EeZWEFpPyTKwTTW8kfL3gCPiMoAP/boi\nCY8+ywdLjzWXolt9kDqD/zPmgFy15NBv9Lr228roemhd/wbQYGwZ8SKxBKye7Yfl\n8BZXcAyXqB0vkDU2ozix2/27HwKBgQDAEOvch3xw10pQI7Sbrzy2cysC0EO45MwJ\np7fNiSJZUPGCWQqeRIKOEP6+0Bdya52AWlEV6CtIyJrIui6V8uxwZlMH0dUtKVSw\nQaS1RO7TueRArnGF5WVOjxbTeajKVHwIg3/UkVDGyoslw4QRJT6Vllg/Eb5hSMmM\nues1nFzItwKBgH9d7IxU5NVhPIW31Z1DhLK9p7DlZg4o5LPA64Rtvu9y4mpUPw++\nWMkDQtcb6JzV0nzQ+TUWhCAqjQsSNJ5U5Ln/c1eth2O63iSFhbSFdkmh2I0+D32+\nMBYPm8k5qhRNV/fQAL0O+EGKTuWuPoYaSVoBT8czH346zqQN/tX+BQZLAoGAEL7o\n8ZdWgDglIIucaZ6Dupyb+WjTHsHEEGtxGRiFyCfIhsbgqB/tChntPBHEmZNMbi5x\nt2lArN3gsPOasDQ37SzevGXNIlziJ2PxymQyNn+UqRcMitIPXSQYp2OKFen7zno4\noP3yfwKV0zsSvrPymvQ6yXTwlmbUO9LR8SCq7k0CgYABqmyQr2zmmoeysXQ61lA2\nJZeYRG1k6YQ2w/Z1agWrzPzTWm5XxbjdN+4Y+tKJ3Q+oS9eRLjGO0rng56SI48tE\n3VGqgWJzIC127o2xpFpaiKEz1YoxSgX6BLVpjVLGbvJOIjNY/77WZw0umDx2rBhw\nQfcqgiRq41W4VE4EaS/vpA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "botcandelaria2@botcandelaria.iam.gserviceaccount.com",
+  "client_id": "114875276568560590786",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/botcandelaria2%40botcandelaria.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
