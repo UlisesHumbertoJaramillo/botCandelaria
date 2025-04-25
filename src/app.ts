@@ -49,6 +49,8 @@ import { flowChequeoGinecologico } from "./flows/flowChequeoGinecologico";
 import { flowChoquetBarbara } from "./flows/flowChoquetBarbara";
 import { flowSandovalNatalia } from "./flows/flowSandovalNatalia";
 import { flowHermosillaEliana } from "./flows/flowHermosillaEliana";
+import { flowDraBoveRomina } from "./flows/flowDraBoveRomina";
+import { flowLicRodriguezLaura } from "./flows/flowLicRodriguezLaura";
 
 const PORT = process.env.PORT ?? 3008;
 
@@ -94,6 +96,8 @@ const main = async () => {
     flowChoquetBarbara,
     flowSandovalNatalia,
     flowHermosillaEliana,
+    flowDraBoveRomina,
+    flowLicRodriguezLaura,
   ]);
 
   const adapterProvider = createProvider(Provider);

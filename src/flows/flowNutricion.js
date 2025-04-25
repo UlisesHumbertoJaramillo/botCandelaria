@@ -28,17 +28,17 @@ export const flowNutricion = addKeyword(EVENTS.ACTION).addAnswer(
       7: "Indistinto",
     };
 
-    const professional = opciones[ctx.body];
-    if (professional == "Lic. CHOQUET Barbara") {
-      await state.update({ profesional: professional });
+    const opc = opciones[ctx.body];
+    if (opc == "Lic. CHOQUET Barbara") {
+      await state.update({ profesional: opc });
       return gotoFlow(flowChoquetBarbara);
     }
-    if (professional == "Lic. SANDOVAL Natalia") {
-      await state.update({ profesional: professional });
+    if (opc == "Lic. SANDOVAL Natalia") {
+      await state.update({ profesional: opc });
       return gotoFlow(flowSandovalNatalia);
     }
-    if (profesional) {
-      await state.update({ profesional: professional });
+    if (opc) {
+      await state.update({ profesional: opc });
       return gotoFlow(flowTurno);
     } else {
       await flowDynamic("*Por favor, elija una opción válida (1 al 7).👇*");

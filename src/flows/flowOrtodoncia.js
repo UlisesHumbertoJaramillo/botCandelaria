@@ -1,6 +1,7 @@
-import { addKeyword,EVENTS} from "@builderbot/bot"
-import {logger} from "../services/logger/logger";
+import { addKeyword, EVENTS } from "@builderbot/bot";
+import { logger } from "../services/logger/logger";
 import { flowTurno } from "./flowTurno";
+import { flowDraSotoRomina } from "./flowDraSotoRomina";
 
 export const flowOrtodoncia = addKeyword(EVENTS.ACTION).addAnswer(
   [
@@ -23,6 +24,11 @@ export const flowOrtodoncia = addKeyword(EVENTS.ACTION).addAnswer(
     };
 
     const profesional = opciones[ctx.body];
+
+    if (profesional === "Od. SOTO Romina (Esp. Ortodoncia y Ortopedia)") {
+      return gotoFlow(flowDraSotoRomina);
+    }
+
     if (profesional) {
       await state.update({ profesional });
       return gotoFlow(flowTurno);

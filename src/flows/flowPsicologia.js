@@ -2,6 +2,8 @@ import { addKeyword, EVENTS } from "@builderbot/bot";
 import { logger } from "../services/logger/logger";
 import { flowTurno } from "./flowTurno";
 import { flowHermosillaEliana } from "./flowHermosillaEliana";
+import { flowDraBoveRomina } from "./flowDraBoveRomina";
+import { flowLicRodriguezLaura } from "./flowLicRodriguezLaura";
 
 export const flowPsicologia = addKeyword(EVENTS.ACTION)
   .addAnswer(
@@ -44,9 +46,16 @@ export const flowPsicologia = addKeyword(EVENTS.ACTION)
 
       const professional = professionals[option];
 
+      if (professional == "Lic. BOVE Romina") {
+        return gotoFlow(flowDraBoveRomina);
+      }
+
       if (professional == "Lic. HERMOSILLA Eliana (Adolescentes, Adultos)") {
-        await state.update({ profesional: professional });
         return gotoFlow(flowHermosillaEliana);
+      }
+
+      if (professional == "Lic. RODRIGUEZ Laura") {
+        return gotoFlow(flowLicRodriguezLaura);
       }
 
       if (professional) {
