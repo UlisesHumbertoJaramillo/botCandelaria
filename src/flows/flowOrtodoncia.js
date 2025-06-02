@@ -2,6 +2,7 @@ import { addKeyword, EVENTS } from "@builderbot/bot";
 import { logger } from "../services/logger/logger";
 import { flowTurno } from "./flowTurno";
 import { flowDraSotoRomina } from "./flowDraSotoRomina";
+import { flowDraMoralesAndrea } from "./flowDraMoralesAndrea";
 
 export const flowOrtodoncia = addKeyword(EVENTS.ACTION).addAnswer(
   [
@@ -27,6 +28,17 @@ export const flowOrtodoncia = addKeyword(EVENTS.ACTION).addAnswer(
 
     if (profesional === "Od. SOTO Romina (Esp. Ortodoncia y Ortopedia)") {
       return gotoFlow(flowDraSotoRomina);
+    }
+
+    if (
+      profesional ===
+      "Od. MORALES Andrea J. (Esp. Ortodoncia y Ortopedia Maxilar)"
+    ) {
+      await state.update({
+        profesional:
+          "Od. MORALES Andrea J. (Esp. Ortodoncia y Ortopedia Maxilar)",
+      });
+      return gotoFlow(flowDraMoralesAndrea);
     }
 
     if (profesional) {

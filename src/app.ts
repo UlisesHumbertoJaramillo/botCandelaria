@@ -1,3 +1,4 @@
+//version: 13.0.0
 import {
   createBot,
   createProvider,
@@ -51,6 +52,8 @@ import { flowSandovalNatalia } from "./flows/flowSandovalNatalia";
 import { flowHermosillaEliana } from "./flows/flowHermosillaEliana";
 import { flowDraBoveRomina } from "./flows/flowDraBoveRomina";
 import { flowLicRodriguezLaura } from "./flows/flowLicRodriguezLaura";
+import { flowDraMoralesAndrea } from "./flows/flowDraMoralesAndrea";
+import { flowJacoboJulieta } from "./flows/flowJacoboJulieta";
 
 const PORT = process.env.PORT ?? 3008;
 
@@ -98,9 +101,14 @@ const main = async () => {
     flowHermosillaEliana,
     flowDraBoveRomina,
     flowLicRodriguezLaura,
+    flowDraMoralesAndrea,
+    flowJacoboJulieta,
   ]);
 
-  const adapterProvider = createProvider(Provider);
+  const adapterProvider = createProvider(Provider, {
+    experimentalStore: true,
+    timeRelease: 10800000,
+  });
   const adapterDB = new Database();
 
   const { handleCtx, httpServer } = await createBot({

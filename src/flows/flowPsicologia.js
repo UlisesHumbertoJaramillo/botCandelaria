@@ -4,6 +4,7 @@ import { flowTurno } from "./flowTurno";
 import { flowHermosillaEliana } from "./flowHermosillaEliana";
 import { flowDraBoveRomina } from "./flowDraBoveRomina";
 import { flowLicRodriguezLaura } from "./flowLicRodriguezLaura";
+import { flowJacoboJulieta } from "./flowJacoboJulieta";
 
 export const flowPsicologia = addKeyword(EVENTS.ACTION)
   .addAnswer(
@@ -52,6 +53,12 @@ export const flowPsicologia = addKeyword(EVENTS.ACTION)
 
       if (professional == "Lic. HERMOSILLA Eliana (Adolescentes, Adultos)") {
         return gotoFlow(flowHermosillaEliana);
+      }
+
+      if (
+        professional == "Lic. JACOBO Julieta (Psicología Deportiva y Clínica)"
+      ) {
+        return gotoFlow(flowJacoboJulieta);
       }
 
       if (professional == "Lic. RODRIGUEZ Laura") {
